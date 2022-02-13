@@ -15,7 +15,7 @@ public class Main {
         }
         System.out.println("Исходный массив -> " + Arrays.toString(rezArr));    //вывели исходный массив
         rezArr = indexStorage.reverse();                //перевернули массив
-        System.out.println("Перевернутый массив -> " + Arrays.toString(rezArr));
+        System.out.println("Обратный массив -> " + Arrays.toString(rezArr));
 
         //2 задание
         ArrayIndexStorage arrayIndexStorage = new ArrayIndexStorage(indexStorage.reverse());
